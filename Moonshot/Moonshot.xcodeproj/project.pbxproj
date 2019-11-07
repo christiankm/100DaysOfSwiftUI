@@ -19,6 +19,8 @@
 		AABA2D1023736A9C00947292 /* Bundle+Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABA2D0F23736A9C00947292 /* Bundle+Decode.swift */; };
 		AABA2D1223736B7200947292 /* CrewRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABA2D1123736B7200947292 /* CrewRole.swift */; };
 		AABA2D1423736BD200947292 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABA2D1323736BD200947292 /* Mission.swift */; };
+		AABA2D16237463C600947292 /* MissionVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABA2D15237463C600947292 /* MissionVIew.swift */; };
+		AABA2D1823746AE700947292 /* AstronautsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABA2D1723746AE700947292 /* AstronautsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		AABA2D0F23736A9C00947292 /* Bundle+Decode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Decode.swift"; sourceTree = "<group>"; };
 		AABA2D1123736B7200947292 /* CrewRole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewRole.swift; sourceTree = "<group>"; };
 		AABA2D1323736BD200947292 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		AABA2D15237463C600947292 /* MissionVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionVIew.swift; sourceTree = "<group>"; };
+		AABA2D1723746AE700947292 /* AstronautsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 				AABA2CF52373634E00947292 /* AppDelegate.swift */,
 				AABA2CF72373634E00947292 /* SceneDelegate.swift */,
 				AABA2CF92373634E00947292 /* ContentView.swift */,
+				AABA2D1723746AE700947292 /* AstronautsView.swift */,
+				AABA2D15237463C600947292 /* MissionVIew.swift */,
 				AABA2D1123736B7200947292 /* CrewRole.swift */,
 				AABA2D1323736BD200947292 /* Mission.swift */,
 				AABA2D0D23736A4D00947292 /* Astronaut.swift */,
@@ -167,9 +173,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AABA2D1223736B7200947292 /* CrewRole.swift in Sources */,
+				AABA2D16237463C600947292 /* MissionVIew.swift in Sources */,
 				AABA2D1023736A9C00947292 /* Bundle+Decode.swift in Sources */,
 				AABA2CF62373634E00947292 /* AppDelegate.swift in Sources */,
 				AABA2CF82373634E00947292 /* SceneDelegate.swift in Sources */,
+				AABA2D1823746AE700947292 /* AstronautsView.swift in Sources */,
 				AABA2CFA2373634E00947292 /* ContentView.swift in Sources */,
 				AABA2D1423736BD200947292 /* Mission.swift in Sources */,
 				AABA2D0E23736A4D00947292 /* Astronaut.swift in Sources */,
