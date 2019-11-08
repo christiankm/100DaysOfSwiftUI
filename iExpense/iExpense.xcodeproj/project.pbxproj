@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAAFE62D236C3ECE003E4C67 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAFE62C236C3ECE003E4C67 /* Expenses.swift */; };
+		AAAFE62F236C41AC003E4C67 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAFE62E236C41AC003E4C67 /* AddView.swift */; };
 		AAFCBC8C2368947A0061410E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCBC8B2368947A0061410E /* AppDelegate.swift */; };
 		AAFCBC8E2368947A0061410E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCBC8D2368947A0061410E /* SceneDelegate.swift */; };
 		AAFCBC902368947A0061410E /* ExamplesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCBC8F2368947A0061410E /* ExamplesContentView.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AAAFE62C236C3ECE003E4C67 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		AAAFE62E236C41AC003E4C67 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		AAFCBC882368947A0061410E /* iExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAFCBC8B2368947A0061410E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAFCBC8D2368947A0061410E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 				AAFCBC8D2368947A0061410E /* SceneDelegate.swift */,
 				AAFCBC8F2368947A0061410E /* ExamplesContentView.swift */,
 				AAFCBC9F236898330061410E /* ContentView.swift */,
+				AAAFE62E236C41AC003E4C67 /* AddView.swift */,
+				AAAFE62C236C3ECE003E4C67 /* Expenses.swift */,
 				AAFCBC912368947B0061410E /* Assets.xcassets */,
 				AAFCBC962368947B0061410E /* LaunchScreen.storyboard */,
 				AAFCBC992368947B0061410E /* Info.plist */,
@@ -149,7 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAAFE62D236C3ECE003E4C67 /* Expenses.swift in Sources */,
 				AAFCBC8C2368947A0061410E /* AppDelegate.swift in Sources */,
+				AAAFE62F236C41AC003E4C67 /* AddView.swift in Sources */,
 				AAFCBC8E2368947A0061410E /* SceneDelegate.swift in Sources */,
 				AAFCBCA0236898330061410E /* ContentView.swift in Sources */,
 				AAFCBC902368947A0061410E /* ExamplesContentView.swift in Sources */,
