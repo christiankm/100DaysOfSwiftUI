@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA3212A7238EE0F500E4FC42 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3212A6238EE0F500E4FC42 /* ImagePicker.swift */; };
+		AA3212A9238FDE0100E4FC42 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3212A8238FDE0100E4FC42 /* ImageSaver.swift */; };
 		AA386E87238AD71E0094022C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA386E86238AD71E0094022C /* AppDelegate.swift */; };
 		AA386E89238AD71E0094022C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA386E88238AD71E0094022C /* SceneDelegate.swift */; };
 		AA386E8B238AD71E0094022C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA386E8A238AD71E0094022C /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA3212A6238EE0F500E4FC42 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		AA3212A8238FDE0100E4FC42 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 		AA386E83238AD71E0094022C /* Instafilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instafilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA386E86238AD71E0094022C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA386E88238AD71E0094022C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				AA386E86238AD71E0094022C /* AppDelegate.swift */,
 				AA386E88238AD71E0094022C /* SceneDelegate.swift */,
 				AA386E8A238AD71E0094022C /* ContentView.swift */,
+				AA3212A6238EE0F500E4FC42 /* ImagePicker.swift */,
+				AA3212A8238FDE0100E4FC42 /* ImageSaver.swift */,
 				AA386E8C238AD7210094022C /* Assets.xcassets */,
 				AA386E91238AD7210094022C /* LaunchScreen.storyboard */,
 				AA386E94238AD7210094022C /* Info.plist */,
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA386E87238AD71E0094022C /* AppDelegate.swift in Sources */,
+				AA3212A7238EE0F500E4FC42 /* ImagePicker.swift in Sources */,
+				AA3212A9238FDE0100E4FC42 /* ImageSaver.swift in Sources */,
 				AA386E89238AD71E0094022C /* SceneDelegate.swift in Sources */,
 				AA386E8B238AD71E0094022C /* ContentView.swift in Sources */,
 			);
