@@ -17,6 +17,7 @@
 		AAEA31F82399601C003AB0EE /* MKPointAnnotation+ObervableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEA31F72399601C003AB0EE /* MKPointAnnotation+ObervableObject.swift */; };
 		AAEA31FA23996072003AB0EE /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEA31F923996072003AB0EE /* EditView.swift */; };
 		AAEA31FC239963E1003AB0EE /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEA31FB239963E1003AB0EE /* Result.swift */; };
+		AAEA31FE2399698C003AB0EE /* MKPointAnnotation+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEA31FD2399698C003AB0EE /* MKPointAnnotation+Codable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		AAEA31F72399601C003AB0EE /* MKPointAnnotation+ObervableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation+ObervableObject.swift"; sourceTree = "<group>"; };
 		AAEA31F923996072003AB0EE /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		AAEA31FB239963E1003AB0EE /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		AAEA31FD2399698C003AB0EE /* MKPointAnnotation+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation+Codable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				AAE677AC2393C9A60053B303 /* MapView.swift */,
 				AAEA31F72399601C003AB0EE /* MKPointAnnotation+ObervableObject.swift */,
 				AAEA31FB239963E1003AB0EE /* Result.swift */,
+				AAEA31FD2399698C003AB0EE /* MKPointAnnotation+Codable.swift */,
 				AAEA31F923996072003AB0EE /* EditView.swift */,
 				AAE67772239289B40053B303 /* Assets.xcassets */,
 				AAE67777239289B40053B303 /* LaunchScreen.storyboard */,
@@ -162,6 +165,7 @@
 				AAE677AD2393C9A60053B303 /* MapView.swift in Sources */,
 				AAEA31FA23996072003AB0EE /* EditView.swift in Sources */,
 				AAE6776F239289B00053B303 /* SceneDelegate.swift in Sources */,
+				AAEA31FE2399698C003AB0EE /* MKPointAnnotation+Codable.swift in Sources */,
 				AAEA31FC239963E1003AB0EE /* Result.swift in Sources */,
 				AAE67771239289B00053B303 /* ContentView.swift in Sources */,
 				AAEA31F82399601C003AB0EE /* MKPointAnnotation+ObervableObject.swift in Sources */,
