@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA223FCA23AF9A7300A5DE9F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA223FC923AF9A7300A5DE9F /* Card.swift */; };
+		AA223FCC23AF9B6A00A5DE9F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA223FCB23AF9B6A00A5DE9F /* CardView.swift */; };
 		AA56D25123ABADB700CC8026 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA56D25023ABADB700CC8026 /* AppDelegate.swift */; };
 		AA56D25323ABADB700CC8026 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA56D25223ABADB700CC8026 /* SceneDelegate.swift */; };
 		AA56D25523ABADB700CC8026 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA56D25423ABADB700CC8026 /* ContentView.swift */; };
 		AA56D25723ABADB900CC8026 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA56D25623ABADB900CC8026 /* Assets.xcassets */; };
 		AA56D25A23ABADB900CC8026 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA56D25923ABADB900CC8026 /* Preview Assets.xcassets */; };
 		AA56D25D23ABADB900CC8026 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA56D25B23ABADB900CC8026 /* LaunchScreen.storyboard */; };
+		AA9196C823AF9F42004BF0F8 /* View+Stacked.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9196C623AF9EB4004BF0F8 /* View+Stacked.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA223FC923AF9A7300A5DE9F /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		AA223FCB23AF9B6A00A5DE9F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		AA56D24D23ABADB700CC8026 /* Flashzilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashzilla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA56D25023ABADB700CC8026 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA56D25223ABADB700CC8026 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		AA56D25923ABADB900CC8026 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA56D25C23ABADB900CC8026 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA56D25E23ABADB900CC8026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9196C623AF9EB4004BF0F8 /* View+Stacked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Stacked.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				AA56D25023ABADB700CC8026 /* AppDelegate.swift */,
 				AA56D25223ABADB700CC8026 /* SceneDelegate.swift */,
 				AA56D25423ABADB700CC8026 /* ContentView.swift */,
+				AA223FCB23AF9B6A00A5DE9F /* CardView.swift */,
+				AA223FC923AF9A7300A5DE9F /* Card.swift */,
+				AA9196C623AF9EB4004BF0F8 /* View+Stacked.swift */,
 				AA56D25623ABADB900CC8026 /* Assets.xcassets */,
 				AA56D25B23ABADB900CC8026 /* LaunchScreen.storyboard */,
 				AA56D25E23ABADB900CC8026 /* Info.plist */,
@@ -146,9 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9196C823AF9F42004BF0F8 /* View+Stacked.swift in Sources */,
 				AA56D25123ABADB700CC8026 /* AppDelegate.swift in Sources */,
 				AA56D25323ABADB700CC8026 /* SceneDelegate.swift in Sources */,
 				AA56D25523ABADB700CC8026 /* ContentView.swift in Sources */,
+				AA223FCA23AF9A7300A5DE9F /* Card.swift in Sources */,
+				AA223FCC23AF9B6A00A5DE9F /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
