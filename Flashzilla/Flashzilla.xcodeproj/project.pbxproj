@@ -16,6 +16,7 @@
 		AA56D25A23ABADB900CC8026 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA56D25923ABADB900CC8026 /* Preview Assets.xcassets */; };
 		AA56D25D23ABADB900CC8026 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA56D25B23ABADB900CC8026 /* LaunchScreen.storyboard */; };
 		AA9196C823AF9F42004BF0F8 /* View+Stacked.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9196C623AF9EB4004BF0F8 /* View+Stacked.swift */; };
+		AA9196CB23B00BD1004BF0F8 /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9196C923B00B6D004BF0F8 /* EditCards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		AA56D25C23ABADB900CC8026 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA56D25E23ABADB900CC8026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA9196C623AF9EB4004BF0F8 /* View+Stacked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Stacked.swift"; sourceTree = "<group>"; };
+		AA9196C923B00B6D004BF0F8 /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				AA56D25223ABADB700CC8026 /* SceneDelegate.swift */,
 				AA56D25423ABADB700CC8026 /* ContentView.swift */,
 				AA223FCB23AF9B6A00A5DE9F /* CardView.swift */,
+				AA9196C923B00B6D004BF0F8 /* EditCards.swift */,
 				AA223FC923AF9A7300A5DE9F /* Card.swift */,
 				AA9196C623AF9EB4004BF0F8 /* View+Stacked.swift */,
 				AA56D25623ABADB900CC8026 /* Assets.xcassets */,
@@ -158,6 +161,7 @@
 				AA9196C823AF9F42004BF0F8 /* View+Stacked.swift in Sources */,
 				AA56D25123ABADB700CC8026 /* AppDelegate.swift in Sources */,
 				AA56D25323ABADB700CC8026 /* SceneDelegate.swift in Sources */,
+				AA9196CB23B00BD1004BF0F8 /* EditCards.swift in Sources */,
 				AA56D25523ABADB700CC8026 /* ContentView.swift in Sources */,
 				AA223FCA23AF9A7300A5DE9F /* Card.swift in Sources */,
 				AA223FCC23AF9B6A00A5DE9F /* CardView.swift in Sources */,
