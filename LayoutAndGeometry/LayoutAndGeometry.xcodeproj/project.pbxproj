@@ -14,6 +14,10 @@
 		AA43851A23BD3BA900D2C799 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA43851923BD3BA900D2C799 /* Preview Assets.xcassets */; };
 		AA43851D23BD3BA900D2C799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA43851B23BD3BA900D2C799 /* LaunchScreen.storyboard */; };
 		AA43852623BD406200D2C799 /* CustomAlignmentGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43852423BD3EC200D2C799 /* CustomAlignmentGuides.swift */; };
+		AA43852823BD412900D2C799 /* AbsolutePositioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43852723BD412900D2C799 /* AbsolutePositioning.swift */; };
+		AA43852A23BD42D100D2C799 /* CoordinateSpaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43852923BD42D100D2C799 /* CoordinateSpaces.swift */; };
+		AA43852C23BD438C00D2C799 /* ScrollViewEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43852B23BD438C00D2C799 /* ScrollViewEffects.swift */; };
+		AA43852E23BD448A00D2C799 /* CoverFlowEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43852D23BD448A00D2C799 /* CoverFlowEffectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		AA43851C23BD3BA900D2C799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA43851E23BD3BA900D2C799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA43852423BD3EC200D2C799 /* CustomAlignmentGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignmentGuides.swift; sourceTree = "<group>"; };
+		AA43852723BD412900D2C799 /* AbsolutePositioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsolutePositioning.swift; sourceTree = "<group>"; };
+		AA43852923BD42D100D2C799 /* CoordinateSpaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinateSpaces.swift; sourceTree = "<group>"; };
+		AA43852B23BD438C00D2C799 /* ScrollViewEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewEffects.swift; sourceTree = "<group>"; };
+		AA43852D23BD448A00D2C799 /* CoverFlowEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlowEffectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,10 @@
 				AA43851223BD3BA800D2C799 /* SceneDelegate.swift */,
 				AA43851423BD3BA800D2C799 /* ContentView.swift */,
 				AA43852423BD3EC200D2C799 /* CustomAlignmentGuides.swift */,
+				AA43852723BD412900D2C799 /* AbsolutePositioning.swift */,
+				AA43852923BD42D100D2C799 /* CoordinateSpaces.swift */,
+				AA43852B23BD438C00D2C799 /* ScrollViewEffects.swift */,
+				AA43852D23BD448A00D2C799 /* CoverFlowEffectView.swift */,
 				AA43851623BD3BA900D2C799 /* Assets.xcassets */,
 				AA43851B23BD3BA900D2C799 /* LaunchScreen.storyboard */,
 				AA43851E23BD3BA900D2C799 /* Info.plist */,
@@ -150,7 +162,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA43851123BD3BA800D2C799 /* AppDelegate.swift in Sources */,
+				AA43852C23BD438C00D2C799 /* ScrollViewEffects.swift in Sources */,
 				AA43852623BD406200D2C799 /* CustomAlignmentGuides.swift in Sources */,
+				AA43852E23BD448A00D2C799 /* CoverFlowEffectView.swift in Sources */,
+				AA43852A23BD42D100D2C799 /* CoordinateSpaces.swift in Sources */,
+				AA43852823BD412900D2C799 /* AbsolutePositioning.swift in Sources */,
 				AA43851323BD3BA800D2C799 /* SceneDelegate.swift in Sources */,
 				AA43851523BD3BA800D2C799 /* ContentView.swift in Sources */,
 			);

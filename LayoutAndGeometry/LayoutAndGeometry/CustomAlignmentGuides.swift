@@ -24,7 +24,7 @@ struct CustomAlignmentGuides: View {
         HStack(alignment: VerticalAlignment.midAccountAndName) {
             VStack {
                 Text("@twostraws")
-                    .alignmentGuide(VerticalAlignment.midAccountAndName)
+//                    .alignmentGuide(VerticalAlignment.midAccountAndName)
                 Image("paul-hudson")
                     .resizable()
                     .frame(width: CGFloat(64.0), height: CGFloat(64.0))
